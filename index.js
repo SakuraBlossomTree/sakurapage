@@ -44,6 +44,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
             }
 
+            else if (input == 'wi' || input == 'wiki' || input == 'wikipedia'){
+
+                window.location = "https://www.wikipedia.com"
+
+            }
+
+            else if (input == 'w' || input == "wh" || input == "whatsapp"){
+
+                window.location = "https://web.whatsapp.com"
+
+            }
+
             else {
 
                 var result = 'https://www.duckduckgo.com/?hps=1&q=' + encodeURIComponent(input);
