@@ -56,6 +56,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
             }
 
+            else if (input == 'b' || input == 'ba' || input == 'bard'){
+
+                window.location = "https://bard.google.com"
+
+            }
+
             else {
 
                 var result = 'https://www.duckduckgo.com/?hps=1&q=' + encodeURIComponent(input);
